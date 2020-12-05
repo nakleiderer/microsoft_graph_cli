@@ -4,16 +4,19 @@
 
 This project always welcomes the following contributions:
 
+- [Opening issues](https://github.com/nakleiderer/microsoft-graph-cli/issues/new) for any problems, bugs, or feature requests
+- Finding and linking duplicate issues.
 - Improved test coverage (especially on files with no coverage)
 - Improved documentation (especially clarifications, tutorials, and examples)
 - Improved error handling and messaging (especially when it improves the user experience)
 - Performance improvements (with reasonable maintainability and readability tradeoffs)
 - Minor refactoring (especially when it improves adherence to the [Deno Style Guide](https://deno.land/manual/contributing/style_guide))
 
-The following contributions are encouraged, but should be discussed in an issue before beginning:
+The following contributions are encouraged, but should be discussed in an issue before starting work:
 
 - Major refactoring
 - Support of additional Microsoft Graph endpoints
+- Implementing untriaged feature requests
 
 After you contribute in any way, please add yourself as a contributor via the [@all-contributors bot](https://allcontributors.org/docs/en/bot/usage)!
 
@@ -54,7 +57,8 @@ If you're not sure how to submit a pull request, please see [How to Contribute t
 - Ensure you resolve any issues discovered by running `deno fmt` and `deno lint --unstable`.
 - Ensure you've made a best effort attempt to add test coverage. Test coverage is highly encouraged. In some cases, it might not make sense or be feasible to add coverage.
 - Ensure you've updated any relevant documentation in the [README](README.md).
-  - If you've used any additional dependencies, projects, or resources, please add them to the Acknowledgements section.
+  - If you've added or removed dependencies, please update the Acknowledgements section.
+  - If you've used any additional resources or projects, please update the Acknowledgements section.
   - If you've made changes that require additional permissions or add use cases for existing permissions, please note the new reasons in the Permissions section.
 - Ensure you've updated any examples requiring updates in light of your changes.
 
