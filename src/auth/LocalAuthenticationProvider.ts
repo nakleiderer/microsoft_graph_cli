@@ -1,8 +1,11 @@
-import * as path from "https://deno.land/std@0.79.0/path/mod.ts";
-import { getFreePort } from "https://deno.land/x/free_port@v1.2.0/mod.ts";
-import { Application, Router } from "https://deno.land/x/oak@v6.3.0/mod.ts";
-import { OAuth2Client } from "https://deno.land/x/oauth2_client@v0.2.0/mod.ts";
-import { open } from "https://deno.land/x/opener@v1.0.1/mod.ts";
+import {
+  Application,
+  getFreePort,
+  OAuth2Client,
+  open,
+  path,
+  Router,
+} from "../../deps.ts";
 import { ITokenPersistenceStrategy } from "./persistence/ITokenPersistenceStrategy.ts";
 import { Token } from "./Token.ts";
 

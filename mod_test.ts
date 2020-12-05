@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.79.0/testing/asserts.ts";
+import { assertEquals } from "./dev_deps.ts";
 
 Deno.test("deno functions", () => {
   assertEquals(0, 0);

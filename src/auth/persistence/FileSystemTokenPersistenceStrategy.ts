@@ -1,4 +1,4 @@
-import { ensureFile } from "https://deno.land/std@0.79.0/fs/mod.ts";
+import { ensureFile } from "../../../deps.ts";
 import { Token } from "../Token.ts";
 import { ITokenPersistenceStrategy } from "./ITokenPersistenceStrategy.ts";
 

@@ -1,4 +1,4 @@
-import { Tokens as Oauth2Token } from "https://deno.land/x/oauth2_client@v0.2.0/src/types.ts";
+import { Oauth2Token } from "../../deps.ts";
 
 interface PartialToken {
   accessToken?: string;
