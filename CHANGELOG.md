@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/nakleiderer/microsoft-graph-cli/compare/v1.0.1...v1.0.2) (2020-12-05)
+
+
+### Bug Fixes
+
+* pin dependency versions ([ff19534](https://github.com/nakleiderer/microsoft-graph-cli/commit/ff19534949baa11be82ba6792e7b6e8e29545c09))
+
 ## [1.0.1](https://github.com/nakleiderer/microsoft-graph-cli/compare/v1.0.0...v1.0.1) (2020-12-05)
 
 
