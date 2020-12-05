@@ -1,10 +1,10 @@
 import {
   Client,
-} from "https://cdn.skypack.dev/@microsoft/microsoft-graph-client";
+} from "https://cdn.skypack.dev/pin/@microsoft/microsoft-graph-client@v2.2.1-7qqRmiEvE5GXCz8mPIui/@microsoft/microsoft-graph-client.js";
 import * as path from "https://deno.land/std@0.79.0/path/mod.ts";
-import cacheDir from "https://deno.land/x/cache_dir/mod.ts";
-import * as MicrosoftGraph from "https://raw.githubusercontent.com/microsoftgraph/msgraph-typescript-typings/master/microsoft-graph.d.ts";
+import cacheDir from "https://deno.land/x/cache_dir@v0.1.1/mod.ts";
 import { OAuth2Client } from "https://deno.land/x/oauth2_client@v0.2.0/src/oauth2_client.ts";
+import * as MicrosoftGraph from "https://raw.githubusercontent.com/microsoftgraph/msgraph-typescript-typings/1.27.0/microsoft-graph.d.ts";
 import {
   FileSystemPersistenceStrategy,
   LocalAuthenticationProvider,
