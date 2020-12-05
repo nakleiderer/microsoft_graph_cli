@@ -1,0 +1,26 @@
+{
+  "projectName": "microsoft-graph-cli",
+  "projectOwner": "nakleiderer",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "nakleiderer",
+      "name": "Nicolas Kleiderer",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4278631?v=4",
+      "profile": "https://kleiderer.com/",
+      "contributions": [
+        "code",
+        "doc",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

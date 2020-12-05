@@ -1,0 +1,31 @@
+{
+    "branches": [
+        "main"
+    ],
+    "plugins": [
+        [
+            "@semantic-release/commit-analyzer",
+            {
+                "preset": "angular",
+                "releaseRules": [
+                    {
+                        "type": "docs",
+                        "release": false
+                    }
+                ]
+            }
+        ],
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "README.md",
+                    "CHANGELOG.md"
+                ]
+            }
+        ],
+        "@semantic-release/github"
+    ]
+}
