@@ -24,7 +24,7 @@ This CLI _should_ work on Mac OS, Linux, and Windows operating systems. However,
 
 If you'd like to install this project as an executable in your path, run:
 
-`deno install --unstable [permissions] -n mgraph https://deno.land/std@0.79.0/http/file_server.ts`
+`deno install --unstable [permissions] -n mgraph https://deno.land/x/microsoft_graph_cli/cli.ts`
 
 - Replace `[permissions]` in this command with any permissions you wish to grant to the CLI. See [Permissions](#Permissions) for all optional and required permissions and their rationale. Example: `--allow-net --allow-read --allow-write`
 - (Optional) If you would like to grant all permissions to this CLI, you may replace `[permissions]` with `--allow-all`. This will prevent errors if future versions require new permissions, but is considered less secure.
@@ -34,7 +34,7 @@ If you'd like to install this project as an executable in your path, run:
 
 If you don't wish to [use deno install](#use-deno-install-preferred), replace any instances of `mgraph` in the usage examples with:
 
-`deno run --unstable [permissions] https://deno.land/std@0.79.0/http/file_server.ts`
+`deno run --unstable [permissions] https://deno.land/x/microsoft_graph_cli/cli.ts`
 
 - Replace `[permissions]` in this command with any permissions you wish to grant to the CLI. See [Permissions](#Permissions) for all optional and required permissions and their rationale. Example: `--allow-net --allow-read --allow-write`
 - (Optional) If you would like to grant all permissions to this CLI, you may replace `[permissions]` with `--allow-all`. This will prevent errors if future versions require new permissions, but is considered less secure.

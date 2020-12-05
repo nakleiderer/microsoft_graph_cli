@@ -105,7 +105,11 @@ export class LocalAuthenticationProvider {
 
       const loginUrl = `${host}/login`;
       console.log(`Login to Microsoft using your browser: ${loginUrl}`);
-      await open(loginUrl);
+      try {
+        await open(loginUrl);
+      } catch {
+        // No need to catch any error here, this feature is a nice-to-have
+      }
     });
 
     app.use(router.allowedMethods(), router.routes());
