@@ -57,6 +57,7 @@ If you're not sure how to submit a pull request, please see [How to Contribute t
 - Ensure you resolve any issues discovered by running `deno fmt` and `deno lint --unstable`.
 - Ensure you've made a best effort attempt to add test coverage. Test coverage is highly encouraged. In some cases, it might not make sense or be feasible to add coverage.
 - Ensure you've updated any relevant documentation in the [README](README.md).
+  - Note that the [README](README.md) is generated from the template located in `.templates/README.md`.
   - If you've added or removed dependencies, please update the Acknowledgements section.
   - If you've used any additional resources or projects, please update the Acknowledgements section.
   - If you've made changes that require additional permissions or add use cases for existing permissions, please note the new reasons in the Permissions section.

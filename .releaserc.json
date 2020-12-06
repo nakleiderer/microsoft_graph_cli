@@ -18,11 +18,33 @@
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
         [
+            "@google/semantic-release-replace-plugin",
+            {
+                "replacements": [
+                    {
+                        "files": [
+                            ".template/README.md",
+                            ".template/version.ts"
+                        ],
+                        "from": "0.0.0-development",
+                        "to": "${nextRelease.version}"
+                    }
+                ]
+            }
+        ],
+        [
+            "@semantic-release/exec",
+            {
+                "publishCmd": "yes | cp .template/** ./"
+            }
+        ],
+        [
             "@semantic-release/git",
             {
                 "assets": [
                     "README.md",
-                    "CHANGELOG.md"
+                    "CHANGELOG.md",
+                    "version.ts"
                 ]
             }
         ],
