@@ -23,8 +23,7 @@
                 "replacements": [
                     {
                         "files": [
-                            ".template/README.md",
-                            ".template/version.ts"
+                            ".template/**"
                         ],
                         "from": "0.0.0-development",
                         "to": "${nextRelease.version}"
@@ -35,7 +34,7 @@
         [
             "@semantic-release/exec",
             {
-                "publishCmd": "yes | cp .template/** ./"
+                "prepareCmd": "yes | cp .template/** ./"
             }
         ],
         [
