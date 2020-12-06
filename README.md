@@ -104,7 +104,7 @@ Thanks to these wonderful people ([emoji key](https://allcontributors.org/docs/e
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://kleiderer.com/"><img src="https://avatars0.githubusercontent.com/u/4278631?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolas Kleiderer</b></sub></a><br /><a href="https://github.com/nakleiderer/microsoft-graph-cli/commits?author=nakleiderer" title="Code">💻</a> <a href="https://github.com/nakleiderer/microsoft-graph-cli/commits?author=nakleiderer" title="Documentation">📖</a> <a href="#design-nakleiderer" title="Design">🎨</a></td>
+    <td align="center"><a href="https://kleiderer.com/"><img src="https://avatars0.githubusercontent.com/u/4278631?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolas Kleiderer</b></sub></a><br /><a href="https://github.com/nakleiderer/microsoft-graph-cli/commits?author=nakleiderer" title="Code">💻</a> <a href="https://github.com/nakleiderer/microsoft-graph-cli/commits?author=nakleiderer" title="Documentation">📖</a> <a href="#ideas-nakleiderer" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/nakleiderer/microsoft-graph-cli/pulls?q=is%3Apr+reviewed-by%3Anakleiderer" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 

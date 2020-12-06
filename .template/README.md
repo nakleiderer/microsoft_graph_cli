@@ -7,7 +7,7 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 **An unofficial command line utility for accessing the [Microsoft Graph](https://developer.microsoft.com/en-us/graph), written with Deno and Typescript**
@@ -102,6 +102,12 @@ Thanks to these wonderful people ([emoji key](https://allcontributors.org/docs/e
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://kleiderer.com/"><img src="https://avatars0.githubusercontent.com/u/4278631?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolas Kleiderer</b></sub></a><br /><a href="https://github.com/nakleiderer/microsoft-graph-cli/commits?author=nakleiderer" title="Code">💻</a> <a href="https://github.com/nakleiderer/microsoft-graph-cli/commits?author=nakleiderer" title="Documentation">📖</a> <a href="#ideas-nakleiderer" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/nakleiderer/microsoft-graph-cli/pulls?q=is%3Apr+reviewed-by%3Anakleiderer" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
