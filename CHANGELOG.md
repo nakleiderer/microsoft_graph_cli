@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/nakleiderer/microsoft-graph-cli/compare/v1.0.2...v1.0.3) (2020-12-06)
+
+
+### Bug Fixes
+
+* **deps:** properly import microsoft graph types ([e02a668](https://github.com/nakleiderer/microsoft-graph-cli/commit/e02a6689ae09bc1b67aff6f32ce375eb773a8ba4))
+
 ## [1.0.2](https://github.com/nakleiderer/microsoft-graph-cli/compare/v1.0.1...v1.0.2) (2020-12-05)
 
 
