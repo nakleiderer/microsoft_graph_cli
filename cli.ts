@@ -1,10 +1,4 @@
-import {
-  cacheDir,
-  Client,
-  MicrosoftGraph,
-  OAuth2Client,
-  path,
-} from "./deps.ts";
+import { cacheDir, Client, OAuth2Client, path, User } from "./deps.ts";
 import {
   FileSystemPersistenceStrategy,
   LocalAuthenticationProvider,
@@ -40,6 +34,6 @@ if (import.meta.main) {
     },
   );
 
-  const me: MicrosoftGraph.User = await client.api("/me").get(null);
+  const me: User = await client.api("/me").get(null);
   console.log(`Signed in as ${me.displayName} (${me.userPrincipalName})`);
 }
