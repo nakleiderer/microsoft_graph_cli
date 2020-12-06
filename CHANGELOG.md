@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/nakleiderer/microsoft-graph-cli/compare/v1.1.0...v1.1.1) (2020-12-06)
+
+
+### Bug Fixes
+
+* **template:** fix templates ([a1ff5fc](https://github.com/nakleiderer/microsoft-graph-cli/commit/a1ff5fc1807a272985dce5e5db1516d6e092ab47))
+
 # [1.1.0](https://github.com/nakleiderer/microsoft-graph-cli/compare/v1.0.3...v1.1.0) (2020-12-06)
 
 
