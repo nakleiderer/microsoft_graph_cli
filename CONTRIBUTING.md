@@ -41,7 +41,7 @@ If you're new to Deno, please read the [Getting Started
 1. Open the your cloned repository in Visual Studio Code.
 1. Wait for container to build
 1. Ensure tests pass locally: `deno test`
-1. Make your changes and commit with `git cz` or manually specify a commit message following the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#summary).
+1. Make your changes and commit with `npx cz` or manually specify a commit message following the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#summary).
 
 If you experience problems with any of the above, please [open an issue](https://github.com/nakleiderer/microsoft-graph-cli/issues/new). While we might not be able to help solve every problem, we should be able to help with problems caused by our own repository.
 

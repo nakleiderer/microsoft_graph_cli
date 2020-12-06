@@ -1,23 +1,15 @@
 {
-    "name": "Deno",
-    "dockerFile": "Dockerfile",
+  "name": "Deno",
+  "dockerFile": "Dockerfile",
 
-    // Set *default* container specific settings.json values on container create.
-    "settings": { 
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
-
-    // Add the IDs of extensions you want installed when the container is created.
-    "extensions": [
-        "denoland.vscode-deno"
-    ],
-
-    // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    // "forwardPorts": [],
-
-    // Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
-    // "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
-
-	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+  // Set *default* container specific settings.json values on container create.
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": ["denoland.vscode-deno"],
+  "remoteUser": "vscode",
+  "postCreateCommand": "sudo chown vscode node_modules && npm i",
+  "mounts": [
+    "source=nakleiderer-microsoft-graph-cli-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+  ]
 }
