@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/nakleiderer/microsoft-graph-cli/compare/v1.0.3...v1.1.0) (2020-12-06)
+
+
+### Features
+
+* **cli:** dedicated login and logout commands ([869f280](https://github.com/nakleiderer/microsoft-graph-cli/commit/869f280ddb2efe2af151a7a8705cce4c7175318b))
+
 ## [1.0.3](https://github.com/nakleiderer/microsoft-graph-cli/compare/v1.0.2...v1.0.3) (2020-12-06)
 
 
