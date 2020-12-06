@@ -79,6 +79,7 @@ The following permissions are used by this CLI for the following reasons:
 The following projects and resources made this project possible (alphabetical order):
 
 - [all-contributors](https://github.com/all-contributors/all-contributors): Generates the Contributors badge and lists contributors in the readme.
+- [Cliffy](https://github.com/c4spar/deno-cliffy): Command line framework for deno
 - [Deno](https://deno.land/): The runtime and a dependency host for this project.
 - [deno_cache_dir](https://github.com/justjavac/deno_cache_dir): Returns the path to the user's cache directory.
 - [deno_free_port](https://github.com/axetroy/deno_free_port): Gets an available port.
