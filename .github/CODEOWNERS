@@ -1,0 +1,7 @@
+* @nakleiderer
+
+# Sensitive configurations. Scrutinize modifications to the following lines.
+LICENSE @nakleiderer
+.releaserc.json @nakleiderer
+.github/ @nakleiderer
+.github/CODEOWNERS @nakleiderer

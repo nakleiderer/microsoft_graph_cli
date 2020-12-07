@@ -1,0 +1,3 @@
+version = 1
+merge.automerge_label = "🚀 Ship It!"
+approve.auto_approve_usernames = ["nakleiderer"]
