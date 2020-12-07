@@ -24,35 +24,35 @@ This CLI _should_ work on Mac OS, Linux, and Windows operating systems. However,
 
 If you'd like to install this project as an executable in your path, run:
 
-`deno install --unstable [permissions] -n mgraph https://deno.land/x/microsoft_graph_cli@v1.1.2/cli.ts`
+`deno install --unstable [permissions] -n mgraph https://deno.land/x/microsoft_graph_cli@v1.1.3/cli.ts`
 
 - Replace `[permissions]` in this command with any permissions you wish to grant to the CLI. See [Permissions](#Permissions) for all optional and required permissions and their rationale. Example: `--allow-net --allow-read --allow-write`
 - (Optional) If you would like to grant all permissions to this CLI, you may replace `[permissions]` with `--allow-all`. This will prevent errors if future versions require new permissions, but is considered less secure.
 - (Optional) You may install this cli with a different executable name by replace `mgraph` with a name of your choice. If you do so, make sure to replace `mgraph` with your selected name in all usage examples.
-- (Optional) You may install any [released version](https://github.com/kleiderer/microsoft_graph_cli/releases) of this CLI by changing `v1.1.2` to the desired version.
+- (Optional) You may install any [released version](https://github.com/kleiderer/microsoft_graph_cli/releases) of this CLI by changing `v1.1.3` to the desired version.
 
 ### Use Deno Run
 
 If you don't wish to [use deno install](#use-deno-install-preferred), replace any instances of `mgraph` in the usage examples with:
 
-`deno run --unstable [permissions] https://deno.land/x/microsoft_graph_cli@v1.1.2/cli.ts`
+`deno run --unstable [permissions] https://deno.land/x/microsoft_graph_cli@v1.1.3/cli.ts`
 
 - Replace `[permissions]` in this command with any permissions you wish to grant to the CLI. See [Permissions](#Permissions) for all optional and required permissions and their rationale. Example: `--allow-net --allow-read --allow-write`
 - (Optional) If you would like to grant all permissions to this CLI, you may replace `[permissions]` with `--allow-all`. This will prevent errors if future versions require new permissions, but is considered less secure.
-- (Optional) You may use any [released version](https://github.com/kleiderer/microsoft_graph_cli/releases) of this CLI by changing the `v1.1.2` to the desired version.
+- (Optional) You may use any [released version](https://github.com/kleiderer/microsoft_graph_cli/releases) of this CLI by changing the `v1.1.3` to the desired version.
 
 ### Updating
 
 If you've previously installed with [deno install](#use-deno-install-preferred), you may update by adding the `-f` flag to the command:
 
-`deno install --unstable [permissions] -n mgraph -f https://deno.land/x/microsoft_graph_cli@v1.1.2/cli.ts`
+`deno install --unstable [permissions] -n mgraph -f https://deno.land/x/microsoft_graph_cli@v1.1.3/cli.ts`
 
 - Replace `[permissions]` in this command with any permissions you wish to grant to the CLI. See [Permissions](#Permissions) for all optional and required permissions and their rationale. Example: `--allow-net --allow-read --allow-write`
 - (Optional) If you would like to grant all permissions to this CLI, you may replace `[permissions]` with `--allow-all`. This will prevent errors if future versions require new permissions, but is considered less secure.
 - (Optional) You may install this cli with a different executable name by replace `mgraph` with a name of your choice. If you do so, make sure to replace `mgraph` with your selected name in all usage examples.
-- (Optional) You may install any [released version](https://github.com/kleiderer/microsoft_graph_cli/releases) of this CLI by changing the `v1.1.2` to the desired version.
+- (Optional) You may install any [released version](https://github.com/kleiderer/microsoft_graph_cli/releases) of this CLI by changing the `v1.1.3` to the desired version.
 
-If you use the [deno run](#use-deno-install-preferred) installation option, simply change the `v1.1.2` to the [latest release](https://github.com/kleiderer/microsoft_graph_cli/releases/latest) when you next run the program.
+If you use the [deno run](#use-deno-install-preferred) installation option, simply change the `v1.1.3` to the [latest release](https://github.com/kleiderer/microsoft_graph_cli/releases/latest) when you next run the program.
 
 ## Usage
 

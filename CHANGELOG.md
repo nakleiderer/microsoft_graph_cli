@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/kleiderer/microsoft_graph_cli/compare/v1.1.2...v1.1.3) (2020-12-07)
+
+
+### Bug Fixes
+
+* test deno.land integration ([9d728ae](https://github.com/kleiderer/microsoft_graph_cli/commit/9d728ae77f0ed0ab7ad305a3b6d68694588a2e16))
+
 ## [1.1.2](https://github.com/kleiderer/microsoft_graph_cli/compare/v1.1.1...v1.1.2) (2020-12-07)
 
 
