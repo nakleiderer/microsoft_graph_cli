@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/kleiderer/microsoft-graph-cli/compare/v1.1.1...v1.1.2) (2020-12-07)
+
+
+### Bug Fixes
+
+* enable releases with protected branches ([03f6475](https://github.com/kleiderer/microsoft-graph-cli/commit/03f6475b3fc4bc0278a31856ff3ede0b56ff68d8))
+* enable releases with protected branches ([036c8c1](https://github.com/kleiderer/microsoft-graph-cli/commit/036c8c128404f121559d8ac844b58bc9cfbbc2e9))
+
 ## [1.1.1](https://github.com/nakleiderer/microsoft-graph-cli/compare/v1.1.0...v1.1.1) (2020-12-06)
 
 
