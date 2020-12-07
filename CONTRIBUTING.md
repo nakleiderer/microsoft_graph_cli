@@ -4,7 +4,7 @@
 
 This project always welcomes the following contributions:
 
-- [Opening issues](https://github.com/nakleiderer/microsoft-graph-cli/issues/new) for any problems, bugs, or feature requests
+- [Opening issues](https://github.com/kleiderer/microsoft_graph_cli/issues/new) for any problems, bugs, or feature requests
 - Finding and linking duplicate issues.
 - Improved test coverage (especially on files with no coverage)
 - Improved documentation (especially clarifications, tutorials, and examples)
@@ -34,16 +34,16 @@ If you're new to Deno, please read the [Getting Started
 ## Developer Setup
 
 1. Follow the [Remote Containers Getting Started Guide](https://code.visualstudio.com/docs/remote/containers#_getting-started). (You may use another code editor or IDE, but you're on your own. You can refer to the [Dockerfile](.devcontainer/Dockerfile) for environment information)
-1. Fork [this repository](https://github.com/nakleiderer/microsoft-graph-cli).
+1. Fork [this repository](https://github.com/kleiderer/microsoft_graph_cli).
 1. Clone your forked repository.
-   - SSH: `git clone git@github.com:USERNAME/microsoft-graph-cli.git`
-   - HTTPS: `git clone https://github.com/USERNAME/microsoft-graph-cli.git`
+   - SSH: `git clone git@github.com:USERNAME/microsoft_graph_cli.git`
+   - HTTPS: `git clone https://github.com/USERNAME/microsoft_graph_cli.git`
 1. Open the your cloned repository in Visual Studio Code.
 1. Wait for container to build
 1. Ensure tests pass locally: `deno test`
 1. Make your changes and commit with `npx cz` or manually specify a commit message following the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#summary).
 
-If you experience problems with any of the above, please [open an issue](https://github.com/nakleiderer/microsoft-graph-cli/issues/new). While we might not be able to help solve every problem, we should be able to help with problems caused by our own repository.
+If you experience problems with any of the above, please [open an issue](https://github.com/kleiderer/microsoft_graph_cli/issues/new). While we might not be able to help solve every problem, we should be able to help with problems caused by our own repository.
 
 ## Submitting a Pull Request (PR)
 

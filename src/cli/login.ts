@@ -30,7 +30,7 @@ const persistanceProvider = new FileSystemPersistenceStrategy(
   {
     path: path.join(
       cacheDir() ?? "",
-      "com.kleiderer.microsoft-graph-cli",
+      "com.kleiderer.microsoft_graph_cli",
       "token.json",
     ),
   },
