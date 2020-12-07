@@ -1,6 +1,6 @@
 {
-  "projectName": "microsoft-graph-cli",
-  "projectOwner": "nakleiderer",
+  "projectName": "microsoft_graph_cli",
+  "projectOwner": "kleiderer",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [

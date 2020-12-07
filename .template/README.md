@@ -1,8 +1,8 @@
-# microsoft-graph-cli
+# microsoft_graph_cli
 
-[![Deno CI](https://github.com/nakleiderer/microsoft-graph-cli/workflows/Deno%20CI/badge.svg)](https://github.com/nakleiderer/microsoft-graph-cli/actions)
-[![GitHub](https://img.shields.io/github/license/nakleiderer/microsoft-graph-cli)](https://github.com/nakleiderer/microsoft-graph-cli/blob/master/LICENSE)
-[![TypeScript](https://img.shields.io/badge/types-TypeScript-blue)](https://github.com/nakleiderer/microsoft-graph-cli)
+[![Deno CI](https://github.com/kleiderer/microsoft_graph_cli/workflows/Deno%20CI/badge.svg)](https://github.com/kleiderer/microsoft_graph_cli/actions)
+[![GitHub](https://img.shields.io/github/license/kleiderer/microsoft_graph_cli)](https://github.com/kleiderer/microsoft_graph_cli/blob/master/LICENSE)
+[![TypeScript](https://img.shields.io/badge/types-TypeScript-blue)](https://github.com/kleiderer/microsoft_graph_cli)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -18,7 +18,7 @@
 
 Ensure Deno 1.5.4 installed. If you don't have Deno installed yet, follow the [Deno installation guide](https://deno.land/manual@v1.5.4/getting_started/installation).
 
-This CLI _should_ work on Mac OS, Linux, and Windows operating systems. However, it has only been tested on macOS Catalina v.10.15.7. If you run into any problems, please [open an issue](https://github.com/nakleiderer/microsoft-graph-cli/issues/new).
+This CLI _should_ work on Mac OS, Linux, and Windows operating systems. However, it has only been tested on macOS Catalina v.10.15.7. If you run into any problems, please [open an issue](https://github.com/kleiderer/microsoft_graph_cli/issues/new).
 
 ### Use Deno Install (Preferred)
 
@@ -29,7 +29,7 @@ If you'd like to install this project as an executable in your path, run:
 - Replace `[permissions]` in this command with any permissions you wish to grant to the CLI. See [Permissions](#Permissions) for all optional and required permissions and their rationale. Example: `--allow-net --allow-read --allow-write`
 - (Optional) If you would like to grant all permissions to this CLI, you may replace `[permissions]` with `--allow-all`. This will prevent errors if future versions require new permissions, but is considered less secure.
 - (Optional) You may install this cli with a different executable name by replace `mgraph` with a name of your choice. If you do so, make sure to replace `mgraph` with your selected name in all usage examples.
-- (Optional) You may install any [released version](https://github.com/nakleiderer/microsoft-graph-cli/releases) of this CLI by changing `v0.0.0-development` to the desired version.
+- (Optional) You may install any [released version](https://github.com/kleiderer/microsoft_graph_cli/releases) of this CLI by changing `v0.0.0-development` to the desired version.
 
 ### Use Deno Run
 
@@ -39,7 +39,7 @@ If you don't wish to [use deno install](#use-deno-install-preferred), replace an
 
 - Replace `[permissions]` in this command with any permissions you wish to grant to the CLI. See [Permissions](#Permissions) for all optional and required permissions and their rationale. Example: `--allow-net --allow-read --allow-write`
 - (Optional) If you would like to grant all permissions to this CLI, you may replace `[permissions]` with `--allow-all`. This will prevent errors if future versions require new permissions, but is considered less secure.
-- (Optional) You may use any [released version](https://github.com/nakleiderer/microsoft-graph-cli/releases) of this CLI by changing the `v0.0.0-development` to the desired version.
+- (Optional) You may use any [released version](https://github.com/kleiderer/microsoft_graph_cli/releases) of this CLI by changing the `v0.0.0-development` to the desired version.
 
 ### Updating
 
@@ -50,9 +50,9 @@ If you've previously installed with [deno install](#use-deno-install-preferred),
 - Replace `[permissions]` in this command with any permissions you wish to grant to the CLI. See [Permissions](#Permissions) for all optional and required permissions and their rationale. Example: `--allow-net --allow-read --allow-write`
 - (Optional) If you would like to grant all permissions to this CLI, you may replace `[permissions]` with `--allow-all`. This will prevent errors if future versions require new permissions, but is considered less secure.
 - (Optional) You may install this cli with a different executable name by replace `mgraph` with a name of your choice. If you do so, make sure to replace `mgraph` with your selected name in all usage examples.
-- (Optional) You may install any [released version](https://github.com/nakleiderer/microsoft-graph-cli/releases) of this CLI by changing the `v0.0.0-development` to the desired version.
+- (Optional) You may install any [released version](https://github.com/kleiderer/microsoft_graph_cli/releases) of this CLI by changing the `v0.0.0-development` to the desired version.
 
-If you use the [deno run](#use-deno-install-preferred) installation option, simply change the `v0.0.0-development` to the [latest release](https://github.com/nakleiderer/microsoft-graph-cli/releases/latest) when you next run the program.
+If you use the [deno run](#use-deno-install-preferred) installation option, simply change the `v0.0.0-development` to the [latest release](https://github.com/kleiderer/microsoft_graph_cli/releases/latest) when you next run the program.
 
 ## Usage
 
@@ -91,7 +91,7 @@ The following projects and resources made this project possible (alphabetical or
 - [Skypack](https://www.skypack.dev/): Hosts NPM packages compiled as ES Modules enabling the use of some NPM packages in Deno.
 - [TypeScript](https://www.typescriptlang.org/): The primary programming language for this project.
 
-_(If you feel an acknowledgement is missing, please [open an issue](https://github.com/nakleiderer/microsoft-graph-cli/issues/new) explaining the missing project or resource and we'll update the list.)_
+_(If you feel an acknowledgement is missing, please [open an issue](https://github.com/kleiderer/microsoft_graph_cli/issues/new) explaining the missing project or resource and we'll update the list.)_
 
 ## Contributors
 
@@ -104,7 +104,7 @@ Thanks to these wonderful people ([emoji key](https://allcontributors.org/docs/e
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://kleiderer.com/"><img src="https://avatars0.githubusercontent.com/u/4278631?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolas Kleiderer</b></sub></a><br /><a href="https://github.com/nakleiderer/microsoft-graph-cli/commits?author=nakleiderer" title="Code">💻</a> <a href="https://github.com/nakleiderer/microsoft-graph-cli/commits?author=nakleiderer" title="Documentation">📖</a> <a href="#ideas-nakleiderer" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/nakleiderer/microsoft-graph-cli/pulls?q=is%3Apr+reviewed-by%3Anakleiderer" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://kleiderer.com/"><img src="https://avatars0.githubusercontent.com/u/4278631?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicolas Kleiderer</b></sub></a><br /><a href="https://github.com/kleiderer/microsoft_graph_cli/commits?author=nakleiderer" title="Code">💻</a> <a href="https://github.com/kleiderer/microsoft_graph_cli/commits?author=nakleiderer" title="Documentation">📖</a> <a href="#ideas-nakleiderer" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/kleiderer/microsoft_graph_cli/pulls?q=is%3Apr+reviewed-by%3Anakleiderer" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
@@ -113,7 +113,7 @@ Thanks to these wonderful people ([emoji key](https://allcontributors.org/docs/e
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-_(If you have contributed anything to this project and your name is missing, please [open an issue](https://github.com/nakleiderer/microsoft-graph-cli/issues/new) referencing your contributions and we'll update the list.)_
+_(If you have contributed anything to this project and your name is missing, please [open an issue](https://github.com/kleiderer/microsoft_graph_cli/issues/new) referencing your contributions and we'll update the list.)_
 
 ## Notice of Non-Affiliation and Disclaimer
 

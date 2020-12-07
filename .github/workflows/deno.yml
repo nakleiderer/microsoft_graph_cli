@@ -45,7 +45,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN_ELEVATED }}
           PRIVATE_TOKEN: ${{ secrets.GH_TOKEN_ELEVATED }}
-          GIT_AUTHOR_NAME: kleiderer/microsoft-graph-cli [bot] 
+          GIT_AUTHOR_NAME: kleiderer-microsoft-graph-cli 
           GIT_AUTHOR_EMAIL: 75591941+kleiderer-microsoft-graph-cli@users.noreply.github.com
-          GIT_COMMITTER_NAME: kleiderer/microsoft-graph-cli [bot] 
+          GIT_COMMITTER_NAME: kleiderer-microsoft-graph-cli 
           GIT_COMMITTER_EMAIL: 75591941+kleiderer-microsoft-graph-cli@users.noreply.github.com

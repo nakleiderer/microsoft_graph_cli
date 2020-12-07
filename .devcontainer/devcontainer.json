@@ -8,10 +8,10 @@
   "forwardPorts": [8000],
   "remoteUser": "vscode",
   "postCreateCommand": "sudo chown vscode node_modules && npm i",
-  "postStartCommand": "deno install --unstable --allow-all -n mgraph /workspaces/microsoft-graph-cli/cli.ts",
+  "postStartCommand": "deno install --unstable --allow-all -n mgraph /workspaces/microsoft_graph_cli/cli.ts",
   "mounts": [
-    "source=nakleiderer-microsoft-graph-cli-extensions,target=/home/vscode/.vscode-server/extensions,type=volume",
-    "source=nakleiderer-microsoft-graph-cli-extensions-insiders,target=/home/vscode/.vscode-server-insiders/extensions,type=volume",
-    "source=nakleiderer-microsoft-graph-cli-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+    "source=kleiderer-microsoft_graph_cli-extensions,target=/home/vscode/.vscode-server/extensions,type=volume",
+    "source=kleiderer-microsoft_graph_cli-extensions-insiders,target=/home/vscode/.vscode-server-insiders/extensions,type=volume",
+    "source=kleiderer-microsoft_graph_cli-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
   ]
 }
