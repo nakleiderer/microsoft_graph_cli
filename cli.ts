@@ -1,5 +1,6 @@
 import { Command, CompletionsCommand } from "./deps.ts";
-import { login, logout } from "./src/cli/login.ts";
+import { login } from "./src/cli/commands/login.ts";
+import { logout } from "./src/cli/commands/logout.ts";
 import { version } from "./version.ts";
 
 if (import.meta.main) {
