@@ -1,10 +1,12 @@
 // Deno Standard Library
 export { ensureFile } from "https://deno.land/std@0.79.0/fs/mod.ts";
 export * as path from "https://deno.land/std@0.79.0/path/mod.ts";
+export * as csv from "https://deno.land/std@0.81.0/encoding/csv.ts";
 
 // Third-party Modules
 export {
   Client,
+  PageIterator,
 } from "https://cdn.skypack.dev/pin/@microsoft/microsoft-graph-client@v2.2.1-7qqRmiEvE5GXCz8mPIui/@microsoft/microsoft-graph-client.js";
 
 export { default as cacheDir } from "https://deno.land/x/cache_dir@v0.1.1/mod.ts";
@@ -20,3 +22,8 @@ export {
   Command,
   CompletionsCommand,
 } from "https://deno.land/x/cliffy@v0.15.0/command/mod.ts";
+export type {
+  ITypeInfo,
+  StringType,
+} from "https://deno.land/x/cliffy@v0.15.0/command/mod.ts";
+export { Table } from "https://deno.land/x/cliffy@v0.15.0/table/mod.ts";

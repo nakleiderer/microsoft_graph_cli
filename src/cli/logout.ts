@@ -1,5 +1,5 @@
-import { Command } from "../../../deps.ts";
-import { microsoftGraphAuthTokenPersistanceProvider } from "../context.ts";
+import { Command } from "../../deps.ts";
+import { microsoftGraphAuthTokenPersistanceProvider } from "./context.ts";
 
 async function handleLogout() {
   await Deno.remove(microsoftGraphAuthTokenPersistanceProvider.tokenFilePath);

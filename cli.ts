@@ -1,6 +1,7 @@
 import { Command, CompletionsCommand } from "./deps.ts";
-import { login } from "./src/cli/commands/login.ts";
-import { logout } from "./src/cli/commands/logout.ts";
+import { login } from "./src/cli/login.ts";
+import { logout } from "./src/cli/logout.ts";
+import { users } from "./src/cli/users/main.ts";
 import { version } from "./version.ts";
 
 if (import.meta.main) {
@@ -13,5 +14,6 @@ if (import.meta.main) {
     .command("completions", new CompletionsCommand())
     .command("login", login)
     .command("logout", logout)
+    .command("users", users)
     .parse(Deno.args);
 }

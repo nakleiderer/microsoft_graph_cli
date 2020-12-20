@@ -1,8 +1,8 @@
-import { Command, User } from "../../../deps.ts";
+import { Command, User } from "../../deps.ts";
 import {
   microsoftGraphAuthTokenPersistanceProvider,
   microsoftGraphClient,
-} from "../context.ts";
+} from "./context.ts";
 
 interface Options {
   printAccess?: true;
