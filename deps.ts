@@ -17,7 +17,12 @@ export {
 } from "https://deno.land/x/oauth2_client@v0.2.0/src/oauth2_client.ts";
 export type { Tokens as Oauth2Token } from "https://deno.land/x/oauth2_client@v0.2.0/src/types.ts";
 export { open } from "https://deno.land/x/opener@v1.0.1/mod.ts";
-export type { User } from "https://raw.githubusercontent.com/microsoftgraph/msgraph-typescript-typings/1.27.0/microsoft-graph.d.ts";
+export type {
+  Chat,
+  ChatMessage,
+  ConversationMember,
+  User,
+} from "https://raw.githubusercontent.com/microsoftgraph/msgraph-typescript-typings/1.27.0/microsoft-graph.d.ts";
 export {
   Command,
   CompletionsCommand,
