@@ -14,6 +14,7 @@ RUN apt-get -y install --no-install-recommends nodejs
 
 RUN echo 'export PATH="/home/vscode/.deno/bin:$PATH"' >> /home/vscode/.bashrc
 RUN echo 'source <(mgraph completions bash)' >> /home/vscode/.bashrc
+RUN echo 'source <(npx --shell-auto-fallback bash)' >> /home/vscode/.bashrc
 
 ARG USERNAME=vscode
 RUN mkdir -p /home/$USERNAME/.vscode-server/extensions \

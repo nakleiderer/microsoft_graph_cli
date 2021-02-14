@@ -6,6 +6,8 @@ import {
   path,
   Router,
 } from "../../deps.ts";
+import { LoggedOutError } from "../errors/LoggedOutError.ts";
+import { IAuthProvider } from "./IAuthProvider.ts";
 import { ITokenPersistenceStrategy } from "./persistence/ITokenPersistenceStrategy.ts";
 import { Token } from "./Token.ts";
 
@@ -14,7 +16,7 @@ interface LocalAuthenticationProviderOptions {
   persistanceProvider: ITokenPersistenceStrategy;
 }
 
-export class LocalAuthenticationProvider {
+export class LocalAuthenticationProvider implements IAuthProvider {
   #tokenPersistence: ITokenPersistenceStrategy;
   #oauth2Client: OAuth2Client;
 
@@ -36,6 +38,21 @@ export class LocalAuthenticationProvider {
 
     token = await this.#tokenPersistence.load();
     return token.accessToken;
+  }
+
+  async ensureLoggedIn() {
+    let token = await this.#tokenPersistence.load();
+    if (token.isValid) {
+      return;
+    }
+
+    await this.retrieveAccessTokenSilently();
+    token = await this.#tokenPersistence.load();
+    if (token.isValid) {
+      return;
+    }
+
+    throw new LoggedOutError();
   }
 
   private async retrieveAccessTokenSilently() {
